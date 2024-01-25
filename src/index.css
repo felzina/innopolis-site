@@ -1,0 +1,39 @@
+/* Common styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px;
+  color: #000000;
+  font-family: 'Inter', 'Roboto', 'Arial', sans-serif;
+}
+
+a {
+  color: #008CF0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #F36223;
+}
+
+p {
+  margin: 16px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.color-orange {
+  color: #FF5722;
+}
+
+.bold {
+  font-weight: 700;
+}
+/* /Common styles */

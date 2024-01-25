@@ -1,0 +1,14 @@
+/* Product text */
+.product-text {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+@media(min-width: 1024px) {
+  .product-text {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+/* /Product text */

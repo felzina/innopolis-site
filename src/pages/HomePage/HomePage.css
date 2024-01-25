@@ -1,0 +1,10 @@
+.homePage-title {
+  font-size: 48px;
+  line-height: 64px;
+  margin: 32px 0;
+}
+
+.homePage-link {
+  display: block;
+  margin-bottom: 32px;
+}

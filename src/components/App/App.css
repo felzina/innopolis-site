@@ -1,0 +1,100 @@
+/* Responsive elements */
+.element-mobile {
+  display: flex;
+}
+
+.element-tablet {
+  display: none;
+}
+
+@media(min-width: 1024px) {
+  .element-mobile {
+    display: none;
+  }
+  
+  .element-tablet {
+    display: flex;
+  }
+}
+/* /Responsive elements */
+
+/* Container */
+.container {
+  padding: 0 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 15px;
+    width: 1024px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    padding: 0 50px;
+    width: 1500px;
+  }
+}
+/* /Container */
+
+/* Fav */
+.fav {
+  width: 30px;
+  height: 35px;
+  background: url('/public/img/heart_icon.svg');
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.fav:hover {
+  width: 30px;
+  height: 35px;
+  background: url('/public/img/heart_icon_hovered.svg');
+  background-repeat: no-repeat;
+}
+
+.fav.fav-selected,
+.fav.fav-selected:hover {
+  background: url('/public/img/heart_icon_selected.svg');
+}
+/* /Fav */
+
+/* Fav enlarged tablet */
+.fav-enlarged-tablet {
+  width: 30px;
+  height: 35px;
+  background: url('/public/img/heart_icon.svg');
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+
+.fav-enlarged-tablet:hover {
+  background: url('/public/img/heart_icon_hovered.svg');
+}
+
+.fav-enlarged-tablet.fav-enlarged-tablet-selected,
+.fav-enlarged-tablet.fav-enlarged-tablet-selected:hover {
+  background: url('/public/img/heart_icon_selected.svg');
+}
+
+@media(min-width: 1024px) {
+  .fav-enlarged-tablet {
+    width: 51px;
+    height: 54px;
+    background: url('/public/img/heart_icon_tablet.svg');
+  }
+
+  .fav-enlarged-tablet:hover {
+    background: url('/public/img/heart_icon_hovered_tablet.svg');
+  }
+
+  .fav-enlarged-tablet.fav-enlarged-tablet-selected,
+  .fav-enlarged-tablet.fav-enlarged-tablet-selected:hover {
+    background: url('/public/img/heart_icon_selected_tablet.svg');
+  }
+}
+/* Fav enlarged tablet */

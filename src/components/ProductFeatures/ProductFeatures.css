@@ -1,0 +1,9 @@
+/* Product features */
+.product-features__item {
+  margin: 10px 0;
+}
+
+.product-features__item::marker {
+  color: #888;
+}
+/* /Product features */
