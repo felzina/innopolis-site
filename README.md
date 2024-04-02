@@ -1,3 +1,8 @@
+
+<img width="1618" alt="Снимок экрана 2024-04-02 в 09 14 03" src="https://github.com/NarutoSasukeForever/innopolis-site/assets/115424149/f741b3a4-bf81-4e3e-84cf-2d9f6afb9129">
+<img width="1592" alt="Снимок экрана 2024-04-02 в 09 14 14" src="https://github.com/NarutoSasukeForever/innopolis-site/assets/115424149/2b324ec2-b69a-4c63-8bf1-b466bd0abf68">
+<img width="1499" alt="Снимок экрана 2024-04-02 в 09 14 22" src="https://github.com/NarutoSasukeForever/innopolis-site/assets/115424149/c3f85263-9f37-4591-a691-862557d85597">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
